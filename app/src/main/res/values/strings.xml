@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="btname">按钮</string>
+    <string name="search_text">搜索</string>
+</resources>

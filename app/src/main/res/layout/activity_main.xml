@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/img_bg1"
+    tools:context="com.demo.zg.demo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/cityEdit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/margin_common"
+            android:background="@drawable/hj"
+            />
+        <Button
+            android:id="@+id/bt"
+            style="@style/bt_style1"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textShow_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="@dimen/text_size_15sp"
+        android:textSize="@dimen/text_size_80sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_now"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:textSize="120sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textShow_today"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text=""
+        android:layout_gravity="center"
+        />
+
+        <TextView
+            android:id="@+id/tvShow1"
+            style="@style/tv_style_list"
+            />
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            />
+    <TextView
+        android:id="@+id/tvShow2"
+        style="@style/tv_style_list"
+        />
+
+
+
+
+
+</LinearLayout>
+
